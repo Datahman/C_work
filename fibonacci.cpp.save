@@ -1,0 +1,19 @@
+// Demonstration of a fibonacci sequence.
+
+// First case
+
+long fib_seq (long n) {
+	long result;
+	if (n < 2) {
+		result = n;
+	} else {
+		long a, b;
+		a = fib_seq(n-1);
+		b = fib_seq(n-2);
+		result = a + b;
+	}
+	return result;
+
+}
+
+

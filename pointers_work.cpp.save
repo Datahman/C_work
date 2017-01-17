@@ -1,0 +1,23 @@
+//: Pointers demonstration in C++.
+
+
+#include <iostream>
+
+using namespace std;
+
+int dog, cat, bird, man;
+
+void func(int pet) {
+	cout << "pet id
+
+int main() {
+	int i,j,k;
+	cout << "i:" << (long)&i << endl;
+	cout << "j:" << (long)&j << endl;
+	cout << "k:" << (long)&k << endl;
+	cout << "func():" << (long)&func << endl;
+	cout << "dog" << (long)&cat << endl;
+	cout << "cat" << (long)&dog << endl;
+	cout << "man" << (long)&man << endl;
+
+}///:~

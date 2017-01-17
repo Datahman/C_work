@@ -1,0 +1,22 @@
+// Demonstration of a fibonacci sequence.
+#include<iostream>
+// First case
+using namespace std;
+long fib_seq (long n) {
+	long result;
+	if (n < 2) {
+		result = n;
+	} else {
+		long a, b;
+		a = fib_seq(n-1);
+		b = fib_seq(n-2);
+		result = a + b;
+	}
+	return result;
+
+}
+
+int main (){
+e = fib_seq(3);
+cout << "Fibonacci result is:" << e << endl;
+}

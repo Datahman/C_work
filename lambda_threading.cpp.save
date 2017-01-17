@@ -1,0 +1,34 @@
+// Demonstration of using lambda function [] on threads.
+
+#include <iostream>
+#include <thread>
+#include 
+,algorithm>
+#include vector>
+
+// Single thread work.
+/*
+int main()
+{
+	std::thread t([](){
+		std::cout << "thread call\n";
+	});
+	std::cout << "main thread\n";
+	t.join();
+	return 0;
+
+}
+*/
+
+// Spitting of multiple threads using Lamda function.
+
+int main ()
+{
+	std::vector<std::thread> 
+
+	std::cout <<"Thread is running\n"";
+
+
+
+
+}
